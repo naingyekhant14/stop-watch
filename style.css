@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(38, 37, 37);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.stop-watch {
+  position: relative;
+  color: goldenrod;
+  font-size: 100px;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.mili-second {
+  position: absolute;
+  font-size: 30px;
+  left: 80%;
+  margin-bottom: 40px;
+}
+.btn {
+  margin-left: 10px;
+  margin-bottom: 4px;
+}
